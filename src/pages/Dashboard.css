@@ -1,0 +1,30 @@
+/* src/pages/Dashboard.css */
+
+.dashboard-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffe0e0;
+  margin: 10px auto;
+  padding: 15px;
+  width: 200px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
